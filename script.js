@@ -22,6 +22,14 @@ else{
         power:4
 
     })
+
+
+   
+rect.addEventListener("mouseleave",function(){
+gsap.to(rect,{
+    backgroundColor: "white"
+})
+})
 }
 })
 
